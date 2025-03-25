@@ -26,14 +26,14 @@
 # factorial()           
 
 
-# class factorail():
-#     def __init__(self, Num):
-#         if Num < 0:
-#             print("This is invalid number")
-#         else:
-#             fact = 1
-#             for i in range(1, Num+1):
-#                 fact = fact * i
-#         print("The factorail of the number is", fact)
-# factorail(4)
+class factorail():
+    def __init__(self, Num):
+        if Num < 0:
+            print("This is invalid number")
+        else:
+            fact = 1
+            for i in range(1, Num+1):
+                fact = fact * i
+        print("The factorail of the number is", fact)
+factorail(4)
 
