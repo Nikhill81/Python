@@ -12,3 +12,6 @@ print(namesliing)
 character1 = name2[1]
 print(character1)
 
+# 
+
+print("hello")
