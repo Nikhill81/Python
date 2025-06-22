@@ -18,11 +18,11 @@
 #    print("Invalid number please enter valid number: ")
 
 
-val = int(input("Enter the number here: "))
-if val.isdigit():
-    reversed_string = val[::-1]
-    if reversed_string == val:
-        print("It is a pallindorme")
+# val = int(input("Enter the number here: "))
+# if val.isdigit():
+#     reversed_string = val[::-1]
+#     if reversed_string == val:
+#         print("It is a pallindorme")
 
 # num = int(input("Enter a number: "))
 
@@ -51,3 +51,17 @@ if val.isdigit():
 #         print("false") 
 # else:
 #     print("invalid number")            
+
+class Cat:
+    def speak(self):
+        print("Meow")
+
+class Dog:
+    def speak(self):
+        print("Bark")
+
+def animal_sound(animal):
+    animal.speak()
+
+animal_sound(Cat())
+animal_sound(Dog())

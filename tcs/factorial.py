@@ -12,28 +12,28 @@
 
 # ------------------------------------------------
 
-# def factorial():
-#     n = int(input("Enter the number: "))
-#     if n < 0:
-#         print("Error")
-#     elif n == 0:
-#         print("1")
-#     else:
-#         fact = 1
-#         for i in range(1, n+1):
-#             fact = fact * i
-#         print("Factorail of this number is: ", fact)
-# factorial()           
+def factorial():
+    n = int(input("Enter the number: "))
+    if n < 0:
+        print("Error")
+    elif n == 0:
+        print("1")
+    else:
+        fact = 1
+        for i in range(1, n+1):
+            fact = fact * i
+        print("Factorail of this number is: ", fact)
+factorial()           
 
 
-class factorail():
-    def __init__(self, Num):
-        if Num < 0:
-            print("This is invalid number")
-        else:
-            fact = 1
-            for i in range(1, Num+1):
-                fact = fact * i
-        print("The factorail of the number is", fact)
-factorail(4)
+# class factorail():
+#     def __init__(self, Num):
+#         if Num < 0:
+#             print("This is invalid number")
+#         else:
+#             fact = 1
+#             for i in range(1, Num+1):
+#                 fact = fact * i
+#         print("The factorail of the number is", fact)
+# factorail(4)
 
