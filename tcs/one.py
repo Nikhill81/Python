@@ -15,8 +15,6 @@
 #     print("No")
 
 
-
-
 # val = int(input("Enter the element here : "))
 
 # if val in arr:

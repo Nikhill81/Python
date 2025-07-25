@@ -6,6 +6,13 @@
 # else:
 #     print("It is not pallindrome number")    
 
+value = input("Enter the value here: ")
+reversed_value = value[::-1]
+if reversed_value == value:
+    print("its a pallindrome number")
+else:
+    print("its not a pallindrome number")
+
 
 # value = input("Enter the number here: ")
 # if value.isdigit():
@@ -52,16 +59,16 @@
 # else:
 #     print("invalid number")            
 
-class Cat:
-    def speak(self):
-        print("Meow")
+# class Cat:
+#     def speak(self):
+#         print("Meow")
 
-class Dog:
-    def speak(self):
-        print("Bark")
+# class Dog:
+#     def speak(self):
+#         print("Bark")
 
-def animal_sound(animal):
-    animal.speak()
+# def animal_sound(animal):
+#     animal.speak()
 
-animal_sound(Cat())
-animal_sound(Dog())
+# animal_sound(Cat())
+# animal_sound(Dog())
